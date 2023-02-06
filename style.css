@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between; 
+    background-color: aliceblue;
+}
+#menu{
+    display: none;
+    vertical-align: middle;
+    height: 50px;
+    line-height: 50px;
+    justify-content: space-between;
+    gap: 20px;
+}
+ul{
+    display: flex;
+    gap: 10px;
+}
+li{
+    list-style-type: none;
+}
+.burger{
+    width: 30px;
+    height: 30px;
+    padding-right: 2px;
+}
+.image1{
+width: 100px;
+height: auto;
+}
+.fondnoir{
+    background-color: black;
+    height: 50px;
+    line-height: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+
+#para1{
+    padding: 20px;
+    padding-top: 20px;
+}
+#para1 h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#para1 p{
+    margin-bottom: 20px;
+}
+.section1{
+    padding: 20px;
+}
+#para2{
+    justify-content: center;
+}
+.cl-fleche{
+    display: flex;
+    width: 250px;
+    height: auto;
+    background-color:rgba(255, 0, 0, 0.226);
+    border-radius:10px;
+ }
+.fleche{
+    background-color: rgba(255, 0, 0, 0.808);
+    width: 50px;;
+    height: 500;
+    box-sizing: border-box;
+}
+#fleche{
+    width: 50px;
+    padding: 10px;
+}
+.fondrouge{
+  color: black;
+   padding: 10px;
+}
+.image2{
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.bleu{
+    background-color: blue;
+    padding: 20px;
+}
+#image3{
+    width: 40%;
+    height: auto;
+}
+.para2{
+  padding: 100px;
+
+  line-height: 20px;
+ }
+ #textgras{
+   font-weight: bold;
+}
+.fondnoir1{
+    background-color: black;
+    color:white;
+    width: 100%;
+    padding: 10px;
+}
+.part3{      
+display: block;
+padding: 10px;
+
+}
+.logos{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}
+summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+}
+details {
+    background-color: green;
+    border-top: solid;
+    padding: 0.5em;
+}
+.fondorange{
+    background-color:orange;
+    width: 180px;
+    padding:10px;
+    display: block;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+table{
+    width: 100%;
+    border-spacing: 50px;
+
+}
+.violet{
+    background-color: blueviolet;
+    text-align: center;
+    height: auto;
+}
+.violet p{
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    font-size: 20px;
+}
+.profile{
+    display:none;
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+    #menu{
+        display: flex;
+    }
+    .burger{
+        display: none;
+    }
+    #para1{
+        display: flex;
+    }
+    #para1 p{
+        width: 400px;
+        height: auto;
+    }
+    .image2{
+        width: 500px;
+        height: 500px;
+    }
+    #image2{
+        position: relative;
+        left: 800px;
+
+    }
+    .bleu{
+       display: flex; 
+    }
+    .image3{
+        width: 20%;
+        height: auto;
+    }
+    .para2{
+     width: 400px;
+     height: auto;
+    }
+
+    .profile{
+        background-color: black;
+       height: auto;
+       display: flex;
+    }
+    .profile p{
+        color: white;
+        vertical-align: middle;
+        padding: 10px;
+    }
+    #image4{
+        display: flex;
+        width: 100px;
+        height: 100px;
+    }
+   
+
+}
+
